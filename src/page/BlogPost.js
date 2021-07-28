@@ -4,9 +4,7 @@ import Header from '../components/Header'
 function BlogPost() {
     return (
         <div>
-            <Header />
             <div className="main-wrapper">
-
                 <article className="blog-post px-3 py-5 p-md-5">
                     <div className="container">
                         <header className="blog-post-header">
@@ -125,7 +123,7 @@ function BlogPost() {
                 <footer className="footer text-center py-2 theme-bg-dark">
 
 
-                    <small className="copyright">Designed with <i className="fas fa-heart" style="color: #fb866a;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                    <small className="copyright">Designed with <i className="fas fa-heart" style={{ color: "#fb866a" }}></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
 
                 </footer>
 
